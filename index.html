@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" id="body">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- </font links> -->
+
+  <!-- style and script links -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16/dist/smooth-scroll.min.js"></script>
+
+  <link rel="stylesheet" href="font-awesome(4.7.0)/css/font-awesome.min.css" />
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+
+  <!-- Include AOS CSS from CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <!-- Include AOS JavaScript from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Project 1</title>
+</head>
+
+<body>
+  <section id="home" class="home">
+    <!-- <navbar >-->
+    <div class="bottom-page-nav">
+      <div><a href="#about"><i class="material-symbols-outlined">person_2</i>
+          <p>Profile</p>
+        </a></div>
+      <div><a href="#services"><i class="material-symbols-outlined">category</i>
+          <p>Skills</p>
+        </a></div>
+      <div><a href="#portfolio"><i class="material-symbols-outlined"> toolbar</i>
+          <p>Projects</p>
+        </a></div>
+      <div class="home-bottom-nav">
+        <a href="#home"><i class="material-symbols-outlined">home</i>
+          <p>Home</p>
+        </a>
+      </div>
+    </div>
+    <div class="goBack-btn">
+      <a href="#home"><i class="material-symbols-outlined"> home </i></a>
+      <a href="#contact"><i class="material-symbols-outlined"> phone </i></a>
+    </div>
+    <nav class="myNavbar">
+      <div class="navCon">
+        <div class="navbar-brandd">
+          <p>JOHN DOE</p>
+        </div>
+        <div class="display-theme">
+          <button id="toggleButton"><i id="iconElement" class="material-symbols-outlined">light_mode</i></button>
+        </div>
+        <button class="sidebarBtn">
+          <span class="span"></span>
+        </button>
+
+        <div class="sideBar">
+          <div class="centerNav">
+            <a href="#about">PROFILE</a>
+            <a href="#services">SKILLS</a>
+            <a href="#portfolio">PROJECTS</a>
+            <a href="#contact" class="hidden-link">CONTACT ME</a>
+          </div>
+
+          <div class="navBtns">
+            <a href="#">
+              <button class="myCv">MY CV</button>
+            </a>
+            <a href="#contact">
+              <button class="boldContact">CONTACT ME</button>
+            </a>
+          </div>
+          <div class="social-icons">
+            <a href="#" class="social-icons">
+              <button>
+                <i class="fa fa-linkedin"></i>
+              </button>
+            </a>
+
+            <a href="#">
+              <button>
+                <i class="fa fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- </navbar >-->
+
+    <!-- <HOME>  -->
+    <div class="homepage">
+      <div class="right-hero">
+        <div class="space"> </div>
+        <h1 data-aos="fade-up">Hi Everyone, I'm JOHN DOE </h1>
+        <p class="occupation" data-aos="fade-up">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          suscipit provident vitae quidem, quas laborum pariatur delectus
+          itaque laudantium corrupti dicta asperiores doloremque facilis
+          tenetur aliquid placeat sit modi adipisci!</p>
+
+        <div class="socialBtns" data-aos="fade-up">
+          <a href="https://www.linkedin.com/in/cdc-codevine" data-aos-duration="1000"><button>
+              <i class="fa fa-linkedin"></i> View LinkedIn
+            </button></a>
+
+          <a href="https://github.com/CodeVineDev" data-aos-duration="1000"><button> <i class="fa fa-github"></i> View
+              Github</button>
+          </a>
+        </div>
+        <div class="scroll-down" data-aos="fade-up">
+          <p>Scroll down to know a little more about me</p>
+          <i class="material-symbols-outlined" id="arrow-down">
+            expand_more
+          </i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="left-about">
+      <h3 data-aos="fade-up" data-aos-duration="1000">Meet the Developer</h3>
+      <div class="write-up-container">
+        <div class="write-up" data-aos="fade-left" data-aos-duration="1000">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam
+            officia saepe ut reprehenderit delectus laboriosam, odio nisi
+            perspiciatis voluptatem amet, et ratione, minima possimus fugiat
+            blanditiis? Corrupti saepe, maiores officia molestiae inventore
+            nam! Odio suscipit nulla ut vel reiciendis harum, eveniet
+            perferendis molestiae, fuga numquam error. Id praesentium tempore
+            nihil obcaecati laborum officia soluta eius, hic, quia eveniet
+            vero reiciendis. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Amet obcaecati labore officia rem fuga minus non
+            accusantium officiis mollitia at est impedit totam, expedita fugit
+            consequatur debitis quod, dolorum praesentium.
+          </p>
+        </div>
+        <div class="myimage" data-aos="fade-right" data-aos-duration="1000">
+          <!-- <img src="" alt="MY profile picture" /> -->
+        </div>
+      </div>
+      <div class="about-social-buttons">
+        <a data-aos="zoom-in" data-aos-duration="1000" href="#"><button>View MY CV</button></a>
+        <a data-aos="zoom-in" data-aos-duration="1000" href="#"><button>View Github <i
+              class="fa fa-github"></i></button></a>
+        <a data-aos="zoom-in" data-aos-duration="1000" href="#"><button>View LinkedIn <i
+              class="fa fa-linkedin"></i></button></a>
+      </div>
+    </div>
+  </section>
+  <!-- </about section> -->
+  <!-- <skills section> -->
+  <section id="services">
+    <div class="mySkills">
+      <h3 data-aos="fade-up" data-aos-duration="1000"> My Tech stack</h3>
+      <div class="skills">
+        <div class="html slide" data-aos="fade-right" data-aos-delay="0" data-aos-duration="750"><img
+            src="https://i.postimg.cc/J0N5GwFn/pngwing-com-1-removebg-preview.png" alt="html" />
+          <p>HTML</p>
+        </div>
+        <div class="slide" data-aos="fade-right" data-aos-delay="50" data-aos-duration="800"><img
+            src="https://i.postimg.cc/x83L9vkN/pngwing-com-2-removebg-preview.png" alt="css" />
+          <p>CSS</p>
+        </div>
+        <div class="slide" data-aos="fade-right" data-aos-delay="100" data-aos-duration="850"><img
+            src="https://i.postimg.cc/6qMTHY2c/3-removebg-preview-1.png" alt="Javascript" />
+          <p>JAVASCRIPT</p>
+        </div>
+        <div class="slide" data-aos="fade-right" data-aos-delay="150" data-aos-duration="900"><img
+            src="https://i.postimg.cc/2SsyXq6s/4-removebg-preview-1.png" alt="bootstrap" />
+          <p>BOOTSTRAP</p>
+        </div>
+        <div class="slide" data-aos="fade-right" data-aos-delay="200" data-aos-duration="950"><img
+            src="https://i.postimg.cc/cJj7rLsT/pngwing-com.png" alt="sass" />
+          <p>SASS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- </skills section> -->
+  <!--<projects section> -->
+  <section id="portfolio">
+    <div class="projects">
+      <div clas="project-heading">
+        <h3 data-aos="fade-up" data-aos-duration="1000">Examine my latest project</h3>
+      </div>
+      <div class="myprojects">
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card-img">
+          </div>
+          <div class="right-info">
+            <h4>lorem ipsum</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta illum facilis tempora quo alias expedita
+              itaque error ratione, animi assumenda?
+            </p>
+            <div class="details">
+              <div class="status">
+                <p>In Progress</p>
+                <div class="status-pulse"></div>
+              </div>
+            </div>
+            <button class="show-card" onclick="openDialog(1)">Case Study</button>
+          </div>
+        </div>
+      </div>
+      <div class="myprojects">
+        <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card-img">
+
+          </div>
+          <div class="right-info">
+            <h4>Lorem ipsum</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora eligendi ut esse accusamus assumenda
+              suscipit blanditiis provident! Voluptatibus, iure id.
+            </p>
+            <div class="details">
+              <div class="status">
+                <p>In Progress</p>
+                <div class="status-pulse"></div>
+              </div>
+            </div>
+            <button class="show-card" onclick="openDialog(2)">Case Study</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <dialog class="project-preview" id="dialog1">
+
+      <div class="preview">
+        <i class="fa fa-times-circle fa-times" onclick="closeDialog(1)"></i>
+        <div class="about-project">
+          <h2>lorem ipsum</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores excepturi atque velit blanditiis dolore
+            iure. Dolores amet laudantium rerum quidem.
+          </p>
+          <a href="#"><button>PROJECT LINK</button></a>
+        </div>
+        <div class="content-project">
+
+          <h3>
+            PROJECT OVERVIEW
+          </h3>
+          <div class="overview">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nemo doloremque illo saepe at
+              exercitationem aliquid labore harum ab qui, enim vel a beatae cum temporibus neque praesentium. Odio quos,
+              sunt dicta quasi iusto repellendus non eum maxime quibusdam. Fuga, provident cum. Quam delectus animi
+              culpa reiciendis impedit unde pariatur consectetur labore omnis, minima maxime assumenda distinctio
+              mollitia facere! Porro?
+            </p>
+
+
+
+            <h3>Key Features:</h3>
+
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla odio laboriosam eum dolor
+                voluptatibus velit similique corporis modi itaque illo id consequatur qui voluptate deserunt
+                exercitationem perspiciatis amet dignissimos, nesciunt obcaecati. Ad voluptate consectetur beatae quas
+                quia unde corporis, eaque quo, dolorum quasi, neque rerum debitis quam illum cum placeat expedita nemo!
+                Quia, doloremque temporibus quisquam ipsam optio est obcaecati possimus, quis vero aut excepturi nobis
+                minus dolorem itaque officia dolorum eveniet! Voluptas architecto inventore quis et, labore dolorem
+                impedit ipsum ipsa doloribus veritatis minima magni voluptatibus a ullam accusamus? Optio quas ad
+                officiis iusto molestias esse harum voluptatum.
+              </li>
+            </ul>
+          </div>
+          <h3>
+            TOOLS USED
+          </h3>
+          <div class="tools-used">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVASCRIPT</span>
+            <span>SASS</span>
+            <span>Git</span>
+            <span>Github</span>
+          </div>
+          <h3>
+            SEE LIVE
+          </h3>
+          <a href="#"><button class="golive-btn">
+              PROJECT LINK
+            </button></a>
+        </div>
+      </div>
+    </dialog>
+    <dialog class="project-preview" id="dialog2">
+
+      <div class="preview">
+        <i class="fa fa-times-circle fa-times" onclick="closeDialog(2)"></i>
+        <div class="about-project">
+          <h2>Llorem ipsum</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sunt exercitationem, excepturi accusamus
+            laborum totam ea debitis tempore repellendus reiciendis.
+          </p>
+          <a href="#"><button>PROJECT LINK</button></a>
+        </div>
+        <div class="content-project">
+          <h3>
+            PROJECT OVERVIEW
+          </h3>
+          <div class="overview">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates tempore fugiat odit aliquam
+              pariatur a ad alias nemo, adipisci repudiandae sint quia minus nesciunt corporis dolore atque accusamus.
+              Repudiandae asperiores, temporibus reiciendis aliquam, ea ipsum perferendis dicta iure deleniti libero
+              maiores laudantium, est inventore sunt pariatur alias corrupti porro!</p>
+
+
+            <h3>Key Features:</h3>
+
+            <ul>
+              <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore sequi incidunt id vero debitis
+                omnis ad consequatur nihil, sit tempora porro commodi voluptates ipsum pariatur, accusamus officia eaque
+                neque ratione autem impedit soluta fuga, velit eveniet. Fugit officiis totam accusantium dolorum
+                voluptates odit quo voluptatem neque perspiciatis? Eos laudantium beatae accusamus officiis ullam odit
+                rerum doloribus, a illum labore ut deleniti veniam dicta repudiandae, omnis quam laboriosam. Magnam
+                nostrum vero maxime excepturi quibusdam quisquam minima, sapiente placeat inventore ullam nisi beatae
+                pariatur ab eveniet nam nulla veritatis et. Temporibus explicabo id placeat odit cum quisquam molestias
+                facilis error incidunt!</li>
+            </ul>
+          </div>
+          <h3>
+            TOOLS USED
+          </h3>
+          <div class="tools-used">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVASCRIPT</span>
+            <span>SASS</span>
+            <span>Git</span>
+            <span>Github</span>
+          </div>
+          <h3>
+            SEE LIVE
+          </h3>
+          <a href="#"><button class="golive-btn">
+              PROJECT LINK
+            </button></a>
+        </div>
+      </div>
+    </dialog>
+    <!--</projects section> -->
+  </section>
+  <section id="contact">
+      <div class="contact-sec">
+          <div>
+              <h3 data-aos="fade-up" data-aos-duration="1000">Send me an Email</h3>
+              <p data-aos="fade-up" data-aos-duration="1000">
+                  Let's collaborate
+                  to make your vision a reality. Reach out and let's create something remarkable
+                  together !</p>
+          </div>
+          <div>
+              <fieldset class="fieldset" data-aos="fade-up" data-aos-duration="1000">
+                  <form action="#" method="POST" id="myForm">
+                      <div class="upper-form">
+                          <input type="text" id="name" name="name" placeholder="Enter your name">
+                          <input type="email" id="email" name="email" placeholder="Enter your email">
+                      </div>
+                      <div class="center-form">
+                          <textarea id="textarea" name="message" placeholder="Message" required></textarea>
+                          <input type="hidden" name="_subject" value="PORFOLIFY">
+                          <input type="hidden" name="_captcha" value="false">
+                      </div>
+                      <div class="bottom-form">
+
+                          <input type="hidden" name="_next" value="">
+                          <button type="submit" id="send">Send Email</button>
+                      </div>
+                  </form>
+
+              </fieldset>
+          </div>
+      </div>
+  </section>
+  <!-- </contact section> -->
+
+  <!-- <footer> -->
+  <footer>
+      <p style="font-size: 16px;"> This portfolio was built with
+      <div class="built-with-icons">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+      </p>
+      <p class="copyright"><i class="fa fa-copyright"></i> Copyright 2023-2024 Chukwudolue Divine. All Rights Reserved
+      </p>
+  </footer>
+  <!-- </footer> -->
+    <script>
+      AOS.init({
+        offset: -0.5,
+      });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
