@@ -45,21 +45,7 @@ Portfolify aims to provide individuals with a user-friendly template for craftin
 - Deploy Your Portfolio: Deploy your customized portfolio website to your preferred hosting platform for the world to see.
 ## Contributing
 
-Contributions to Portfolify are highly encouraged and
-
-appreciated! Whether you're fixing bugs, adding new
-
-features, or improving the design, your 
-  
-contributions can help enhance this template for 
-  
-everyone. To contribute, fork the repository, make
-  
-your changes, and submit a pull request. Together,
-   
-we can make Portfolify even more valuable for users 
-
-worldwide.
+Contributions to Portfolify are highly encouraged and appreciated! Whether you're fixing bugs, adding new features, or improving the design, your contributions can help enhance this template for everyone. To contribute, fork the repository, make your changes, and submit a pull request. Together, we can make Portfolify even more valuable for users worldwide.
 
 
 
