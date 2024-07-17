@@ -6,12 +6,13 @@ Welcome to Portfolify, your go-to solution for creating a stunning and professio
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](IMAGES/portfolify.jpg)
 
 
 ## Demo
 
-Insert gif or link to demo
+[Watch the Video](IMAGES/20240717_105806.mp4)
+
 
 
 ## Tech Stack
