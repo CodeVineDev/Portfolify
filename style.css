@@ -444,7 +444,7 @@ body {
 }
 
 .colorPicker-btn {
-  bottom: 15vh;
+  bottom: 120px;
   z-index: 1000;
   right: 32px;
   position: fixed;
@@ -499,7 +499,6 @@ body {
 
 .myimage {
   background: var(--text-head);
-  -webkit-background: var(--text-head);
   width: 300px;
   height: 300px;
   padding: 20px;
@@ -1133,8 +1132,8 @@ footer p {
 
   .myimage {
     width: 280px;
+    height: 280px;
     padding: 20px;
-    background: var(--primary-color);
     margin: auto;
     display: block;
     border-radius: 10px;
