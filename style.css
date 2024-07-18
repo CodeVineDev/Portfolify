@@ -444,9 +444,9 @@ body {
 }
 
 .colorPicker-btn {
-  bottom: 20dvh;
+  bottom: 15vh;
   z-index: 1000;
-  right: 28px;
+  right: 34px;
   position: fixed;
   width: fit-content;
 }
