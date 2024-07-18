@@ -446,7 +446,7 @@ body {
 .colorPicker-btn {
   bottom: 15vh;
   z-index: 1000;
-  right: 34px;
+  right: 32px;
   position: fixed;
   width: fit-content;
 }
