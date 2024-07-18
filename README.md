@@ -9,7 +9,7 @@ Welcome to Portfolify, your go-to solution for creating a stunning and professio
 ![App Screenshot](IMAGES/portfolify.jpg)
 
 
-## Demo
+## Project Video Sample
 
 [Watch the Video](IMAGES/20240717_105806.mp4)
 
@@ -22,7 +22,7 @@ Welcome to Portfolify, your go-to solution for creating a stunning and professio
 
 
 
-## purpose
+## Purpose
 
 Portfolify aims to provide individuals with a user-friendly template for crafting impressive portfolio websites without the need for extensive coding knowledge. Whether you're a developer, designer, marketer, or any professional seeking to showcase your work, Portfolify is here to help you create a visually appealing and informative online presence.
 ## Features
