@@ -444,9 +444,9 @@ body {
 }
 
 .colorPicker-btn {
-  bottom: 95px;
+  bottom: 90px;
   z-index: 1000;
-  right: 35px;
+  right: 43px;
   position: fixed;
   width: fit-content;
 }
@@ -460,7 +460,7 @@ body {
 }
 
 .colorPicker-btn img {
-  width: 35px;
+  width: 25px;
 }
 
 #colorPicker {
@@ -1249,8 +1249,8 @@ footer p {
 
 @media (max-width: 992px) {
   .colorPicker-btn {
-    bottom: 120px;
-    right: 32px;
+    bottom: 115px;
+    right: 38px;
   }
   .details {
     justify-content: center;
