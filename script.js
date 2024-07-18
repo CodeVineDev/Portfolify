@@ -15,17 +15,15 @@ const iconElement = document.getElementById("iconElement");
 document.addEventListener('DOMContentLoaded', () => {
   const colorPicker = document.getElementById('colorPicker');
   const changeColorBtn = document.getElementById('changeColorBtn');
-  const hexValue = document.getElementById('hexValue');
   const root = document.documentElement;
 
   const updateColor = (event) => {
       const hexColor = event.target.value;
       root.style.setProperty('--text-head', hexColor);
-      hexValue.value = hexColor;
   };
 
   changeColorBtn.addEventListener('click', () => {
-      colorPicker.click();
+    colorPicker.click();
   });
 
   colorPicker.addEventListener('input', updateColor);
@@ -315,6 +313,15 @@ timeLine
   )
   .fromTo(
     " .bottom-page-nav div",
+    {
+      opacity: 0,
+    },
+    {
+      opacity: 1,
+    }
+  )
+  .fromTo(
+    ".colorPicker-btn",
     {
       opacity: 0,
     },

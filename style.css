@@ -82,22 +82,6 @@ body {
 
 
 /* NAVBAR STYLING */
-.colorPicker-btn{
-  border: var(--red-border);
-  width: fit-content;
-}
-#colorPicker {
-  margin-top: 10px;
-}
-
-#hexValue {
-  margin-top: 10px;
-  padding: 5px;
-  font-size: 16px;
-  width: 150px;
-  border: 1px solid #ccc;
-}
-
 .myNavbar {
   padding-block: 0.5rem;
   background: var(--primary-color);
@@ -458,11 +442,31 @@ body {
   color: var(--primary-color);
   font-size: 30px;
 }
+.colorPicker-btn{
+  bottom: 95px;
+  z-index: 1000;
+  right: 35px;
+  position: fixed;
+  width: fit-content;
+} 
+.colorPicker-btn button{
+  background: none;
+  border: none;
+  border-radius: 50%;
+  height: 46px;
+  filter: drop-shadow(2px 2px 4px var(--nav-shadow));
+}
+.colorPicker-btn img{
+  width: 45px;
+}
+
+#colorPicker {
+  margin-top: 10px;
+}
 
 .bottom-page-nav {
   display: none;
 }
-
 /* END OF HOME STYLING */
 
 /* ABOUT STYLING */
