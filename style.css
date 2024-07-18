@@ -44,7 +44,7 @@
   --tab-color: #a1a1a1;
   --darker-blue: var(--text-head);
   --blue-text: var(--text-head);
-  --nav-shadow:  #f3f3f327;
+  --nav-shadow: #f3f3f327;
   --pink: #ff69b4;
   --faint-blue: var(--nav-shadow);
   --ping-pink: #ff6f61;
@@ -442,21 +442,24 @@ body {
   color: var(--primary-color);
   font-size: 30px;
 }
-.colorPicker-btn{
-  bottom: 95px;
+
+.colorPicker-btn {
+  bottom: 15%;
   z-index: 1000;
   right: 35px;
   position: fixed;
   width: fit-content;
-} 
-.colorPicker-btn button{
+}
+
+.colorPicker-btn button {
   background: none;
   border: none;
   border-radius: 50%;
   height: 46px;
   filter: drop-shadow(2px 2px 4px var(--nav-shadow));
 }
-.colorPicker-btn img{
+
+.colorPicker-btn img {
   width: 45px;
 }
 
@@ -467,6 +470,7 @@ body {
 .bottom-page-nav {
   display: none;
 }
+
 /* END OF HOME STYLING */
 
 /* ABOUT STYLING */
@@ -505,7 +509,8 @@ body {
   margin-top: 0;
   box-shadow: 1px 1px 10px var(--faint-blue);
 }
-.myimage img{
+
+.myimage img {
   position: absolute;
   bottom: 0;
   left: 0;
