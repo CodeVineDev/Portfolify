@@ -11,7 +11,7 @@ Welcome to Portfolify, your go-to solution for creating a stunning and professio
 
 ## Project Video Sample
 
-[Watch the Video](IMAGES/20240717_105806.mp4)
+[Watch the Video](https://github.com/user-attachments/assets/90b6dc81-d83d-4520-8b1f-09c7186f9e84)
 
 
 
