@@ -11,6 +11,29 @@ window.addEventListener('load', () => {
 const toggleButton = document.getElementById("toggleButton");
 const iconElement = document.getElementById("iconElement");
 
+//COLOR TOOGGLE
+document.addEventListener('DOMContentLoaded', () => {
+  const colorPicker = document.getElementById('colorPicker');
+  const changeColorBtn = document.getElementById('changeColorBtn');
+  const hexValue = document.getElementById('hexValue');
+  const root = document.documentElement;
+
+  const updateColor = (event) => {
+      const hexColor = event.target.value;
+      root.style.setProperty('--text-head', hexColor);
+      hexValue.value = hexColor;
+  };
+
+  changeColorBtn.addEventListener('click', () => {
+      colorPicker.click();
+  });
+
+  colorPicker.addEventListener('input', updateColor);
+});
+
+
+
+
 // Function to enable dark mode
 const enableDarkMode = () => {
   document.body.classList.add("dark-mode");
