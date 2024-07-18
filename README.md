@@ -4,14 +4,10 @@
 Welcome to Portfolify, your go-to solution for creating a stunning and professional portfolio website. Portfolify is designed to simplify the process of building and customizing your online portfolio, allowing you to showcase your skills, projects, and experiences with ease. This template is open-source, meaning you can contribute to its development and make it even better for everyone to use.
 
 
-## Screenshots
 
-![App Screenshot](IMAGES/portfolify.jpg)
+## Project Video Demo
 
-
-## Project Video Sample
-
-[Watch the Video](https://github.com/user-attachments/assets/90b6dc81-d83d-4520-8b1f-09c7186f9e84)
+[Watch the Video](https://github.com/user-attachments/assets/e8a767db-a224-41f9-b416-5e48bdb547c1)
 
 
 
