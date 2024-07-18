@@ -15,8 +15,8 @@
   --linear-bg: linear-gradient(90deg, #cfd8e4 0%, #ffffff 100%);
   --text-head: #1495ff;
   --tab-color: #333;
-  --darker-blue: #1572b6;
-  --blue-text: #046ad1;
+  --darker-blue: var(--text-head);
+  --blue-text: var(--text-head);
   --nav-shadow: #c5c5c5;
   --pink: pink;
   --faint-blue: #cfd8e4;
@@ -42,8 +42,8 @@
   --linear-bg: linear-gradient(90deg, #252525 0%, #2e2e2e 100%);
   --text-head: #82aaff;
   --tab-color: #a1a1a1;
-  --darker-blue: #1c84d4;
-  --blue-text: #5baaff;
+  --darker-blue: var(--text-head);
+  --blue-text: var(--text-head);
   --nav-shadow:  #f3f3f327;
   --pink: #ff69b4;
   --faint-blue: var(--nav-shadow);
