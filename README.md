@@ -21,7 +21,7 @@ Welcome to **Portfolify**, your go-to solution for creating a **stunning and pro
 - **HTML** 🚀
 - **CSS** 🚀
 - **Javascript** 🚀
-- **SCSS** 🚀
+ **ONLY** 
 
 
 
@@ -35,8 +35,8 @@ Portfolify aims to provide individuals with a user-friendly template for craftin
 - **Fully Responsive Design 🤙**
 - **Free to Use (Open source) 😉**
 - **Customizable Sections 👌**
-- **Project Showcase 🤘**
-- **Skills Proficiency ✌**
+- **No Additional Frameworks 🤘**
+- **No Additional Libaries ✌**
 - **Contact Form Integration 💪**
 - **Easy Deployment 👌**
 
