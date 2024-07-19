@@ -11,6 +11,8 @@ Welcome to **Portfolify**, your go-to solution for creating a **stunning and pro
 
 [Watch the Video](https://github.com/user-attachments/assets/e8a767db-a224-41f9-b416-5e48bdb547c1)
 
+**Explore Portfolify in different color themes of your choice 🤗**
+
 
 
 ## Tech Stack 🔧
