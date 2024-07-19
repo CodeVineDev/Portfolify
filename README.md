@@ -3,7 +3,7 @@
 
 # A Super Fast Portfolio Template Project 🚀
 
-Welcome to Portfolify, your go-to solution for creating a stunning and professional portfolio website. Portfolify is designed to simplify the process of building and customizing your online portfolio, allowing you to showcase your skills, projects, and experiences with ease. This template is open-source, meaning you can contribute to its development and make it even better for everyone to use.
+Welcome to **Portfolify**, your go-to solution for creating a **stunning and professional portfolio website**. Portfolify is designed to **simplify** the process of building and customizing your online portfolio, allowing you to showcase **your skills, projects, and experiences** with ease. This template is **open-source**, meaning you can contribute to its development and make it even better for everyone to use.
 
 
 
@@ -16,18 +16,19 @@ Welcome to Portfolify, your go-to solution for creating a stunning and professio
 ## Tech Stack 🔧
 
 **Client:** 
-- HTML 🚀
-- CSS 🚀
-- Javascript 🚀
-- SCSS 🚀
+- **HTML** 🚀
+- **CSS** 🚀
+- **Javascript** 🚀
+- **SCSS** 🚀
 
 
 
 
-## Purpose
+## Purpose 💡
 
 Portfolify aims to provide individuals with a user-friendly template for crafting impressive portfolio websites without the need for extensive coding knowledge. Whether you're a developer, designer, marketer, or any professional seeking to showcase your work, Portfolify is here to help you create a visually appealing and informative online presence.
-## Features
+
+## Features 🔗
 
 - **Fully Responsive Design 🤙**
 - **Free to Use (Open source) 😉**
