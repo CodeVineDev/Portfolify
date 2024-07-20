@@ -66,7 +66,7 @@ If you encounter any issues, have suggestions for improvements, or need assistan
 
 ## Author 👨‍💻
 
-- **Chukwudolue Divine** [**LinkedIn**](https://www.linkedin.com/in/cdc-codevine), [**Github**](https://github.com/CodeVineDev), [**Portfolio**](codevine.vercel.app/index.html)
+- **Chukwudolue Divine** [**LinkedIn**](https://www.linkedin.com/in/cdc-codevine), [**Github**](https://github.com/CodeVineDev), [**Portfolio**](https://codevine.vercel.app/)
 
 **Note**
 
