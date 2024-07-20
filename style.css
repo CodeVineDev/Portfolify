@@ -460,7 +460,7 @@ body {
 }
 
 .colorPicker-btn img {
-  width: 25px;
+  width: 25px; 
 }
 
 #colorPicker {
@@ -605,11 +605,6 @@ body {
   gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
 }
-
-/* Apply the animation to your element on hover
-.slide:hover {
-  animation: vibrate 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
-} */
 
 .skills .slide {
   text-align: center;
@@ -1448,7 +1443,6 @@ footer p {
 }
 
 /* ANIMATIONS */
-/* Define the keyframes animation */
 @keyframes vibrate {
   0% {
     transform: translate(0, 0);
@@ -1472,16 +1466,6 @@ footer p {
 
   100% {
     transform: translate(0, 0);
-  }
-}
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-100%);
   }
 }
 
