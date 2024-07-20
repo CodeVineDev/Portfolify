@@ -14,9 +14,9 @@ Welcome to **Portfolify**, your go-to solution for creating a **stunning and pro
 **Explore Portfolify in different color themes of your choice 🤗**
 
 ## Support 
-[](IMAGES/support-image.jpg)
+[IMAGE](IMAGES/support-image.jpg)
 
-I do need support from amazing people like you as I love your supoort by connecting with me on [My Linkedin](https://www.linkedin.com/in/cdc-codevine) and want each one of you to checkout My Linkedin Profile. Looking forward to meeting you all there 😌.
+I do need support from amazing people like you as I love your supoort by connecting with me on **[My Linkedin]**(https://www.linkedin.com/in/cdc-codevine) and want each one of you to checkout My Linkedin Profile. Looking forward to meeting you all there 😌.
 
 
 ## Tech Stack 🔧
