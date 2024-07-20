@@ -16,7 +16,7 @@ Welcome to **Portfolify**, your go-to solution for creating a **stunning and pro
 ## Support 
 ![IMAGE](IMAGES/support-image.jpg)
 
-I do need support from amazing people like you as I love your supoort by connecting with me on [**My Linkedin**](https://www.linkedin.com/in/cdc-codevine) and want each one of you to checkout My Linkedin Profile. Looking forward to meeting you all there 😌.
+I greatly appreciate the support of amazing individuals like you. I invite you to connect with me on **LinkedIn**](https://www.linkedin.com/in/cdc-codevine) and encourage you to check out my profile. I look forward to engaging with you there 😌.
 
 
 ## Tech Stack 🔧
