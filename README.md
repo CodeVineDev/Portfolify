@@ -7,12 +7,16 @@ Welcome to **Portfolify**, your go-to solution for creating a **stunning and pro
 
 
 
-## Project Video Demo 😀
+## Project Video Demo 🔗
 
 [Watch the Video](https://github.com/user-attachments/assets/e8a767db-a224-41f9-b416-5e48bdb547c1)
 
 **Explore Portfolify in different color themes of your choice 🤗**
 
+## Support 
+[](IMAGES/support-image.jpg)
+
+I do need support from amazing people like you as I love your supoort by connecting with me on [My Linkedin](https://www.linkedin.com/in/cdc-codevine) and want each one of you to checkout My Linkedin Profile. Looking forward to meeting you all there 😌.
 
 
 ## Tech Stack 🔧
@@ -59,6 +63,8 @@ Contributions to Portfolify are highly encouraged and appreciated! Whether you'r
 ## Feedback 🔎
 
 If you encounter any issues, have suggestions for improvements, or need assistance with customizing Portfolify, please don't hesitate to  reach out to us for support codevine2023@gmail.com. Your feedback is crucial in making Portfolify better and providing better support to users.
+
+
 
 ## Give a Star ⭐
 
