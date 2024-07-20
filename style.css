@@ -444,23 +444,28 @@ body {
 }
 
 .colorPicker-btn {
-  bottom: 90px;
+  bottom: 50%;
   z-index: 1000;
-  right: 43px;
+  right: 0;
   position: fixed;
   width: fit-content;
 }
 
 .colorPicker-btn button {
-  background: none;
+  background: var(--primary-color);
   border: none;
-  border-radius: 50%;
-  height: 46px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 50px;
+  height: 40px;
   filter: drop-shadow(2px 2px 4px var(--nav-shadow));
 }
 
 .colorPicker-btn img {
-  width: 25px; 
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  width: 30px; 
 }
 
 #colorPicker {
@@ -1162,6 +1167,10 @@ footer p {
 }
 
 @media (max-width: 500px) {
+   .colorPicker-btn {
+    top: 100px;
+    right: 0;
+  }
 
   .skills .slide p {
     font-family: var(--font-special);
@@ -1203,6 +1212,14 @@ footer p {
 }
 
 @media (max-width: 700px) {
+  .colorPicker-btn button {
+    width: 40px;
+    height: 30px;
+  }
+  
+  .colorPicker-btn img {
+    width: 20px; 
+  }
   .write-up-container {
     grid-template-columns: 1fr;
     gap: .5rem;
@@ -1243,10 +1260,6 @@ footer p {
 }
 
 @media (max-width: 992px) {
-  .colorPicker-btn {
-    bottom: 115px;
-    right: 38px;
-  }
   .details {
     justify-content: center;
   }
