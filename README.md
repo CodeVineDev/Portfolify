@@ -64,17 +64,21 @@ Contributions to Portfolify are highly encouraged and appreciated! Whether you'r
 
 If you encounter any issues, have suggestions for improvements, or need assistance with customizing Portfolify, please don't hesitate to  reach out to us for support codevine2023@gmail.com. Your feedback is crucial in making Portfolify better and providing better support to users.
 
+## Author 👨‍💻
 
+- **Chukwudolue Divine** [**LinkedIn**](https://www.linkedin.com/in/cdc-codevine), [**Github**](https://github.com/CodeVineDev), [**Portfolio**](codevine.vercel.app/index.html)
+
+**Note**
+
+I'm currently looking for good Job Opportunities Remote ( Worldwide ). So, if you have a good opportunity that matches my skills experience then you can contact me on my Linkedin or my email id codevine2023@gmail.com 🙌
 
 ## Give a Star ⭐
 
 If you like this project then give it a Github star by pressing the Star button ⭐
 
-## License 📜
-[MIT](https://choosealicense.com/licenses/mit/)
+## Special Thanks ❤
 
+Special thanks to - [**Ram Maheshwari**](https://www.rammaheshwari.com) for inspiring the creation of this project for the developer community. Ram Masheshwari is the creator of Dopefolio, another excellent portfolio website template for developers. Check it out and show your support ❤️ 
 
-## Acknowledgements 🎊
-
- - [Behance.com](https://www.behance.com)
- - [Ram Maheshwari](https://www.rammaheshwari.com)
+ ## License 📜
+This project is licensed under the GPL-3.0 License - see the [LICENSE](/LICENSE) file for details
