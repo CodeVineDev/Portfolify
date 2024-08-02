@@ -536,7 +536,7 @@ body {
   white-space: inherit;
   color: var(--tab-color);
   font-family: var(--font-body);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.5px;
   word-spacing: 2px;
   font-size: var(--font-size-p);
