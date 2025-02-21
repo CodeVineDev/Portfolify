@@ -2,7 +2,6 @@ let inputName = document.getElementById('name');
 let inputEmail = document.getElementById('email');
 let inputMessage = document.getElementById('textarea')
 window.addEventListener('load', () => {
-  window.scrollTo(0, 0); // Scrolls to the top-left corner of the page
   inputName.value = "";
   inputEmail.value = "";
   inputMessage.value = "";
@@ -85,8 +84,13 @@ document.addEventListener("DOMContentLoaded", function () {
     sidebarBtn.classList.toggle("toggle");
   });
 });
+
+
+
+
+
 // Contact script
-// Use this script yo redirect to the custom thankyou page 
+// Use this script to redirect to the custom thank-you page
 
 // document.getElementById('myForm').addEventListener('submit', function (event) {
 //   event.preventDefault(); // Prevent default form submission
@@ -102,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //     }
 //   }).then(response => {
 //     if (response.ok) {
-//       window.location.href = "https://codevine.vercel.app/PAGES/thankyou.html"; // Redirect to your custom thank you page
+//       window.location.href = "#"; // Redirect to your custom thank you page
 //     } else {
 //       alert('There was an error submitting the form.');
 //     }
@@ -111,23 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //   });
 // });
 
-//SKILLS FONT-SIZE SCRIPT
-document.addEventListener('DOMContentLoaded', function () {
-  function setResponsiveFontSize() {
-    const parents = document.querySelectorAll('.slide');
-    parents.forEach(parent => {
-      const responsiveText = parent.querySelector('.slide p');
-      if (responsiveText) {
-        const parentWidth = parent.offsetWidth;
-        const fontSize = parentWidth * 0.05; // Adjust the multiplier as needed
-        responsiveText.style.setProperty('--responsive-font-size', `${fontSize}px`);
-      }
-    });
-  }
 
-  setResponsiveFontSize();
-  window.addEventListener('resize', setResponsiveFontSize);
-});
 
 
 // PROJECT POP UP SCRIPT

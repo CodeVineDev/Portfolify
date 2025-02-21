@@ -10,6 +10,7 @@
   --red-border: 2px solid red;
   --line-height-body: 20.8px;
   --line-height-head: 26.4px;
+  --box-shadow: 1px 1px 10px var(--faint-blue);
 
   --grad-bg: white;
   --linear-bg: linear-gradient(90deg, #cfd8e4 0%, #ffffff 100%);
@@ -17,7 +18,7 @@
   --tab-color: #333;
   --darker-blue: var(--text-head);
   --blue-text: var(--text-head);
-  --nav-shadow: #c5c5c5;
+  --nav-shadow: var(--faint-blue);
   --pink: pink;
   --faint-blue: #cfd8e4;
   --ping-pink: #ff1313;
@@ -37,14 +38,15 @@
   --red-border: 2px solid red;
   --line-height-body: 20.8px;
   --line-height-head: 26.4px;
+  --box-shadow: 1px 1px 10px var(--faint-blue);
 
-  --grad-bg: #020014;
+  --grad-bg: #0a0a0a;
   --linear-bg: linear-gradient(90deg, #252525 0%, #2e2e2e 100%);
-  --text-head: #82aaff;
+  --text-head: #0051ff;
   --tab-color: #a1a1a1;
   --darker-blue: var(--text-head);
   --blue-text: var(--text-head);
-  --nav-shadow: #f3f3f327;
+  --nav-shadow: #141414;
   --pink: #ff69b4;
   --faint-blue: var(--nav-shadow);
   --ping-pink: #ff6f61;
@@ -83,20 +85,17 @@ body {
 
 /* NAVBAR STYLING */
 .myNavbar {
-  padding-block: 0.5rem;
+  padding-block: 1.2rem;
   background: var(--primary-color);
-  box-shadow: 2px 2px 5px var(--nav-shadow);
+  box-shadow: var(--box-shadow);
   position: fixed;
   width: 100%;
-  height: 70px;
   z-index: 10;
 }
 
 .navCon {
   width: 100%;
-  margin: auto;
   position: relative;
-  place-content: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -109,7 +108,7 @@ body {
   color: var(--text-head);
   font-family: var(--font-head);
   font-weight: 900;
-  font-size: clamp(1.2rem, 1.5cqi + .3rem, 2rem);
+  font-size: clamp(1.2rem, 1.5cqi + 0.3rem, 2rem);
 }
 
 .sideBar {
@@ -170,7 +169,7 @@ body {
 }
 
 .display-theme button:hover {
-  box-shadow: 5px 5px 5px var(--faint-blue);
+  box-shadow: var(--box-shadow);
 }
 
 .display-theme button i {
@@ -203,7 +202,7 @@ body {
 }
 
 .myCv:hover {
-  box-shadow: 5px 5px 5px var(--faint-blue);
+  box-shadow: var(--box-shadow);
 }
 
 .boldContact {
@@ -218,7 +217,7 @@ body {
 }
 
 .boldContact:hover {
-  box-shadow: 5px 5px 5px 2px var(--nav-shadow);
+  box-shadow: var(--box-shadow);
   animation: vibrate 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
 }
 
@@ -271,7 +270,7 @@ body {
 .social-icons button {
   border: none;
   transition: 200ms ease-in-out;
-  box-shadow: 5px 5px 10px var(--faint-blue);
+  box-shadow: var(--box-shadow);
   background: var(--primary-color);
 }
 
@@ -334,12 +333,9 @@ body {
 }
 
 .socialBtns {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   margin: auto;
-  width: min(90%, 400px);
-  gap: 1rem;
-  margin-top: 30px;
+  width: min(90%, 300px);
+  margin-top: 1rem;
 }
 
 .socialBtns div {
@@ -360,19 +356,61 @@ body {
 }
 
 .socialBtns a button:hover {
-  box-shadow: 5px 5px 10px var(--faint-blue);
+  box-shadow: var(--box-shadow);
 }
 
 .socialBtns a button i {
   font-size: 16px;
 }
+.floating-socials {
+  position: absolute;
+  left: 0;
+  top: 14.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: .4rem;
+  border-radius: 5px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+
+}
+
+.floating-socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .6rem;
+  border-radius: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right,
+      var(--darker-blue),
+      var(--blue-text),
+      var(--text-head));
+  transition: 200ms ease-in-out;
+}
+
+.floating-socials a:hover {
+  box-shadow: var(--box-shadow);
+}
+
+.floating-socials a i {
+  font-size: 2rem;
+}
+
+.floating-socials a .mid-icon {
+  font-size: 1.8rem;
+}
+
 
 .scroll-down {
   position: relative;
   font-family: var(--font-body);
   color: var(--tab-color);
   font-weight: 400;
-  font-size: var(--font-size-special);
+font-size: var(--font-size-p);
   margin-top: 30px;
 }
 
@@ -559,16 +597,12 @@ body {
   margin: auto;
 }
 
-.about-social-buttons {
-  width: min(95%, 1150px);
-  margin: auto;
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+.about-contact {
+  width: 40%;
+  margin-left: 1.5rem;
 }
 
-.about-social-buttons button {
+.about-contact button {
   background: var(--primary-color);
   font-weight: 700;
   padding: 10px 5px;
@@ -581,7 +615,7 @@ body {
   width: 100%;
 }
 
-.about-social-buttons button:hover {
+.about-contact button:hover {
   box-shadow: 5px 5px 10px var(--faint-blue);
 }
 
@@ -615,30 +649,23 @@ body {
   text-align: center;
   background: var(--primary-color);
   border-radius: 5px;
-  padding: 10px;
+  padding: 2rem 1rem;
   box-shadow: 6px 6px 10px var(--faint-blue);
 }
 
-.skills .slide img {
-  width: 100px;
-  padding: 10px;
+.skills .skill-icon{
+  font-size: 4rem;
+  color: var(--blue-text);
 }
 
-.skills .html img {
-  width: 90px;
-  padding: 13px;
-}
 
 .skills .slide p {
-  font-family: var(--font-special);
-  font-weight: 900;
-  font-size: var(--responsive-font-size);
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: var(--font-body);
   color: var(--tab-color);
 }
 
-.gsap-p {
-  margin-left: 30px;
-}
 
 /*END OF SERVICE STYLING*/
 
