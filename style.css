@@ -298,6 +298,13 @@ body {
   place-content: center;
 }
 
+.space {
+  height: 2px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
 .right-hero h1 {
   width: 100%;
   text-wrap: balance;
