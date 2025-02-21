@@ -292,16 +292,10 @@ body {
 
 .right-hero {
   text-align: center;
-  padding-block: max(11.4rem, 4vw);
   width: 100%;
+  height: 100dvh;
   display: grid;
   place-content: center;
-}
-
-.space {
-  height: 2px;
-  width: 100%;
-  margin-bottom: 10px;
 }
 
 .right-hero h1 {
@@ -1287,6 +1281,12 @@ footer p {
 }
 
 @media (max-width: 992px) {
+  .floating-socials {
+    display: none;
+  }
+  .myimage {
+    display: none;
+  }
   .details {
     justify-content: center;
   }
@@ -1449,7 +1449,7 @@ footer p {
     width: 100%;
     bottom: 0;
     z-index: 10;
-    padding: 10px;
+    padding: 1.2rem;
     display: block;
     box-shadow: 0px -3px 3px var(--nav-shadow);
     background: var(--primary-color);
