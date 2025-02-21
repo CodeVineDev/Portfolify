@@ -599,7 +599,7 @@ font-size: var(--font-size-p);
 .about-contact button {
   background: var(--primary-color);
   font-weight: 700;
-  padding: 10px 5px;
+  padding: 1rem;
   border-radius: 5px;
   font-size: var(--font-size-p);
   color: var(--blue-text);
@@ -1188,6 +1188,10 @@ footer p {
 }
 
 @media (max-width: 500px) {
+  .about-contact {
+    width: 90%;
+    margin-left: 1rem;
+  }
    .colorPicker-btn {
     top: 100px;
     right: 0;
@@ -1233,14 +1237,6 @@ footer p {
 }
 
 @media (max-width: 700px) {
-  .colorPicker-btn button {
-    width: 40px;
-    height: 30px;
-  }
-  
-  .colorPicker-btn img {
-    width: 20px; 
-  }
   .write-up-container {
     grid-template-columns: 1fr;
     gap: .5rem;
@@ -1281,6 +1277,9 @@ footer p {
 }
 
 @media (max-width: 992px) {
+  .write-up-container {
+    grid-template-columns: 1fr ;
+  }
   .floating-socials {
     display: none;
   }
