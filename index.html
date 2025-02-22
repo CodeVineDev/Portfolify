@@ -224,7 +224,7 @@
                                         <div class="project-card__status--incomplete"></div>
                                     </div>
                                 </div>
-                                <button class="show-card" onclick="openDialog(1)">Case Study</button>
+                                <button class="project__show-card" onclick="openDialog(1)">Case Study</button>
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                                         <div class="project-card__status--incomplete"></div>
                                     </div>
                                 </div>
-                                <button class="show-card" onclick="openDialog(2)">Case Study</button>
+                                <button class="project__show-card" onclick="openDialog(2)">Case Study</button>
                             </div>
                         </div>
                     </div>
@@ -253,19 +253,19 @@
                 <dialog class="project-preview" id="dialog1">
                     <div class="preview">
                         <i class="fa fa-times-circle fa-times" onclick="closeDialog(1)"></i>
-                        <div class="about-project">
+                        <div class="project-preview__about">
                             <h2>PROJECT 1</h2>
                             <p>This page contains case study of your first project
                             </p>
-                            <div class="live-btns">
-                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            <div class="preview__live-btns">
+                                <a href="#"><button class="preview__go-live-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="preview__go-live-btn">GITHUB LINK</button></a>
                             </div>
                         </div>
-                        <div class="content-project">
+                        <div class="preview__content">
                             <img src="IMAGES/project-image.png" alt="project picture">
                             <h3>PROJECT OVERVIEW</h3>
-                            <div class="overview">
+                            <div class="preview__overview">
                                 <p>Write more about your project
                                 </p>
                                 <h3>Key Features:</h3>
@@ -276,7 +276,7 @@
                                 </ul>
                             </div>
                             <h3>TOOLS USED</h3>
-                            <div class="tools-used">
+                            <div class="project_tools-used">
                                 <span>skill</span>
                                 <span>skill</span>
                                 <span>skill</span>
@@ -284,9 +284,9 @@
                                 <span>skill</span>
                             </div>
                             <h3>SEE LIVE</h3>
-                            <div class="live-btns">
-                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            <div class="preview__live-btns">
+                                <a href="#"><button class="preview__go-live-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="preview__go-live-btn">GITHUB LINK</button></a>
                             </div>
                         </div>
                     </div>
@@ -294,19 +294,19 @@
                 <dialog class="project-preview" id="dialog2">
                     <div class="preview">
                         <i class="fa fa-times-circle fa-times" onclick="closeDialog(2)"></i>
-                        <div class="about-project">
+                        <div class="project-preview__about">
                             <h2>PROJECT 1</h2>
                             <p>This page contains case study of your first project
                             </p>
-                            <div class="live-btns">
-                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            <div class="preview__live-btns">
+                                <a href="#"><button class="preview__go-live-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="preview__go-live-btn">GITHUB LINK</button></a>
                             </div>
                         </div>
-                        <div class="content-project">
+                        <div class="preview__content">
                             <img src="IMAGES/project-image.png" alt="project picture">
                             <h3>PROJECT OVERVIEW</h3>
-                            <div class="overview">
+                            <div class="preview__overview">
                                 <p>Write more about your project
                                 </p>
                                 <h3>Key Features:</h3>
@@ -317,7 +317,7 @@
                                 </ul>
                             </div>
                             <h3>TOOLS USED</h3>
-                            <div class="tools-used">
+                            <div class="project_tools-used">
                                 <span>skill</span>
                                 <span>skill</span>
                                 <span>skill</span>
@@ -325,9 +325,9 @@
                                 <span>skill</span>
                             </div>
                             <h3>SEE LIVE</h3>
-                            <div class="live-btns">
-                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            <div class="preview__live-btns">
+                                <a href="#"><button class="preview__go-live-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="preview__go-live-btn">GITHUB LINK</button></a>
                             </div>
                         </div>
                     </div>
@@ -337,29 +337,27 @@
         </section>
 
         <section id="contact">
-            <div class="contact-sec">
-                <div>
-                    <h3 data-aos="fade-up">Send me an Email</h3>
-                    <p data-aos="fade-up">
+            <div class="contact__content">
+                <div data-aos="fade-up">
+                    <h3>Send me an Email</h3>
+                    <p>
                         Use this section as a call to action to get feedbacks
                     </p>
                 </div>
-                <div class="reach-out">
-                    <!-- Add any additional contact information or social media links here -->
-                </div>
+                <!-- Add any additional contact information or social media links here -->
                 <div>
                     <!-- Apply whatever form handler of your choice online and edit into this section -->
-                    <fieldset class="fieldset" data-aos="fade-up">
+                    <fieldset data-aos="fade-up">
                         <form action="#" method="POST" id="myForm">
-                            <div class="upper-form">
+                            <div class="contact__upper-input">
                                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
                                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
                             </div>
-                            <div class="center-form">
+                            <div class="contact__center-input">
                                 <textarea id="textarea" name="message" placeholder="Message" required></textarea>
                                 <input type="hidden" name="_subject" value="New Contact Form Submission">
                             </div>
-                            <div class="bottom-form">
+                            <div class="contact__bottom-input">
                                 <input type="hidden" name="_next" value="thankyou.html">
                                 <button type="submit" id="send">Send Email</button>
                             </div>
@@ -372,22 +370,34 @@
 
         <!-- <footer> -->
         <footer>
-            <p style="font-size: 16px;"> This portfolio was built with
-            <div class="built-with-icons">
-                <div><img src="IMAGES/html-image.png" class="small-html" alt="HTML logo"></div>
-                <div><img src="IMAGES/css-image.png" alt="CSS logo"></div>
-                <div><img src="IMAGES/javascript-image.png" alt="JavaScript logo"></div>
+            <div class="footer">
+                <div class="footer__container">
+                    <div class="footer__content">
+                        <h3>PORFOLIFY</h3>
+                        <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error assumenda voluptate non
+                            nostrum libero aliquam nulla. Quae omnis soluta in.</P>
+                    </div>
+                    <div class="footer__socials">
+                        <h4>Social</h4>
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-youtube-square"></i></a>
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-github-square"></i></a>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p class="copyright"><i class="fa fa-copyright"></i> Copyright 2024 Made by Chukwudolue Divine.
+                    </p>
+                </div>
             </div>
-            </p>
-            <p class="copyright"><i class="fa fa-copyright"></i> Copyright 2024 Made by Chukwudolue Divine.
-            </p>
+
+
         </footer>
         <!-- </footer> -->
 
         <script>
             AOS.init({
-                once: true
-
+                once: true,
+                offset: 5
             });
         </script>
 </body>

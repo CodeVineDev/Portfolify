@@ -32,19 +32,14 @@ const disableDarkMode = () => {
   document.body.classList.remove("dark-mode");
   localStorage.setItem("dark-mode", null);
 };
-// Check the current dark mode setting in localStorage
 const darkMode = localStorage.getItem("dark-mode");
-// Apply the appropriate theme based on the darkMode setting
 if (darkMode === "enabled") {
   enableDarkMode();
-  // Optionally, update the icon to indicate dark mode
   iconElement.textContent = "dark_mode";
 } else {
   disableDarkMode();
-  // Optionally, update the icon to indicate light mode
   iconElement.textContent = "light_mode";
 }
-// Add a click event listener to toggle dark mode
 toggleButton.addEventListener("click", () => {
   if (document.body.classList.contains("dark-mode")) {
     disableDarkMode();
