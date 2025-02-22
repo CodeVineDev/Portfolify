@@ -152,26 +152,20 @@
         <section id="about">
             <div class="about__content">
                 <h3 data-aos="fade-up">Meet the Developer</h3>
-                <div class="write-up-container" data-aos="fade-up">
-                    <div class="write-up">
+                <div class="about__content-writeup" data-aos="fade-up">
+                    <div>
                         <p>
-                            <span>
-                                This is the about section, as the name suggest tell us about you
-                            </span>
-                            <span>
-                                Add an image of your self as you can see on the right
-                            </span>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit placeat repudiandae
-                                quos
-                                ipsam vel! Modi molestias et accusamus excepturi eligendi.
-                                <div class="about-contact">
-                                    <a href="#"><button>Contact me</button></a>
-                                </div>
-                            </span>
+                            This is the about section, as the name suggest tell us about you.
+                            Add an image of your self as you can see on the right.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit placeat repudiandae
+                            quos
+                            ipsam vel! Modi molestias et accusamus excepturi eligendi.
+                        <div class="about-contact">
+                            <a href="#"><button>Contact me</button></a>
+                        </div>
                         </p>
                     </div>
-                    <div class="myimage">
+                    <div class="about__image">
                         <img src="IMAGES/profile-image.png" alt="MY profile picture">
                     </div>
                 </div>
@@ -180,27 +174,27 @@
         <!-- </about> -->
 
         <section id="services">
-            <div class="mySkills">
+            <div class="skills-display">
                 <h3 data-aos="fade-up"> My Tech stack</h3>
                 <!--Add images of your skills. e.g HTML, CSS  -->
                 <div class="skills">
-                    <div class="html slide" data-aos="fade-right" data-aos-delay="0" data-aos-duration="750">
+                    <div class="skill" data-aos="fade-right" data-aos-delay="0" data-aos-duration="750">
                         <iconify-icon icon="fluent:desktop-toolbox-20-regular" class="skill-icon"></iconify-icon>
                         <p>Skill</p>
                     </div>
-                    <div class="slide" data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
+                    <div class="skill" data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
                         <iconify-icon icon="fluent:desktop-toolbox-20-regular" class="skill-icon"></iconify-icon>
                         <p>Skill</p>
                     </div>
-                    <div class="slide" data-aos="fade-right" data-aos-delay="100" data-aos-duration="850">
+                    <div class="skill" data-aos="fade-right" data-aos-delay="100" data-aos-duration="850">
                         <iconify-icon icon="fluent:desktop-toolbox-20-regular" class="skill-icon"></iconify-icon>
                         <p>Skill</p>
                     </div>
-                    <div class="slide" data-aos="fade-right" data-aos-delay="150" data-aos-duration="900">
+                    <div class="skill" data-aos="fade-right" data-aos-delay="150" data-aos-duration="900">
                         <iconify-icon icon="fluent:desktop-toolbox-20-regular" class="skill-icon"></iconify-icon>
                         <p>Skill</p>
                     </div>
-                    <div class="slide" data-aos="fade-right" data-aos-delay="200" data-aos-duration="950">
+                    <div class="skill" data-aos="fade-right" data-aos-delay="200" data-aos-duration="950">
                         <iconify-icon icon="fluent:desktop-toolbox-20-regular" class="skill-icon"></iconify-icon>
                         <p>Skill</p>
                     </div>
@@ -213,42 +207,42 @@
                         <h3 data-aos="fade-up">Examine my latest project</h3>
                         <!-- This is the section where you display your projects -->
                     </div>
-                    <div class="myprojects">
+                    <div class="my-project">
                         <div class="project-card" data-aos="fade-up">
-                            <div class="card-img">
+                            <div class="project-card__img">
                                 <img src="IMAGES/project-image.png" alt="project picture">
                             </div>
-                            <div class="right-info">
+                            <div class="project-card__info">
                                 <h4>PROJECT 1</h4>
                                 <p>
                                     Write a brief description of your first projects.
                                 </p>
-                                <div class="details">
-                                    <div class="status">
+                                <div class="project-card__details">
+                                    <div class="project-card__status">
                                         <p> Project status</p>
                                         <!-- complete or incomplete -->
-                                        <div class="status-pulse-incomplete"></div>
+                                        <div class="project-card__status--incomplete"></div>
                                     </div>
                                 </div>
                                 <button class="show-card" onclick="openDialog(1)">Case Study</button>
                             </div>
                         </div>
                     </div>
-                    <div class="myprojects">
+                    <div class="my-project">
                         <div class="project-card" data-aos="fade-up">
-                            <div class="card-img">
+                            <div class="project-card__img">
                                 <img src="IMAGES/project-image.png" alt="project picture">
                             </div>
-                            <div class="right-info">
+                            <div class="project-card__info">
                                 <h4>PROJECT 2</h4>
                                 <p>
                                     Write a brief description of your next projects
                                 </p>
-                                <div class="details">
-                                    <div class="status">
+                                <div class="project-card__details">
+                                    <div class="project-card__status">
                                         <p> Project status</p>
                                         <!-- complete or incomplete -->
-                                        <div class="status-pulse-incomplete"></div>
+                                        <div class="project-card__status--incomplete"></div>
                                     </div>
                                 </div>
                                 <button class="show-card" onclick="openDialog(2)">Case Study</button>
@@ -393,6 +387,7 @@
         <script>
             AOS.init({
                 once: true
+
             });
         </script>
 </body>

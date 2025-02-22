@@ -579,7 +579,7 @@ font-size: var(--font-size-p);
   border-radius: 10px;
 }
 
-.myimage {
+.about__image {
   background: var(--text-head);
   width: 300px;
   height: 300px;
@@ -592,23 +592,15 @@ font-size: var(--font-size-p);
   box-shadow: 1px 1px 10px var(--faint-blue);
 }
 
-.myimage img {
+.about__image img {
   position: absolute;
   bottom: 0;
   left: 0;
   border: 8px solid var(--primary-color);
 }
 
-.mytitle {
-  text-align: center;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: var(--font-size-p);
-  color: var(--tab-color);
-}
 
-
-.about__content p:not(.mytitle) {
+.about__content p {
   padding: 0 5px;
   white-space: inherit;
   color: var(--tab-color);
@@ -623,12 +615,12 @@ font-size: var(--font-size-p);
   margin-bottom: 30px;
 }
 
-.about__content p span:not(.mytitle, .myimage) {
+.about__content p span:not( .about__image) {
   display: block;
   margin-bottom: 10px;
 }
 
-.write-up-container {
+.about__content-writeup {
   display: grid;
   grid-template-columns: 1fr .5fr;
   gap: 2rem;
@@ -661,13 +653,13 @@ font-size: var(--font-size-p);
 /* END OF ABOUT STYLING */
 
 /* SERVICES STYLING */
-.mySkills {
+.skills-display {
   padding: 100px 0;
   width: min(95%, 1200px);
   margin: auto;
 }
 
-.mySkills h3 {
+.skills-display h3 {
   margin: 10px 0 50px 0;
   text-align: center;
   color: var(--blue-text);
@@ -684,7 +676,7 @@ font-size: var(--font-size-p);
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
 }
 
-.skills .slide {
+.skills .skill {
   text-align: center;
   background: var(--primary-color);
   border-radius: 5px;
@@ -698,7 +690,7 @@ font-size: var(--font-size-p);
 }
 
 
-.skills .slide p {
+.skills .skill p {
   font-family: var(--font-body);
   font-weight: 500;
   font-size: var(--font-body);
@@ -737,7 +729,7 @@ font-size: var(--font-size-p);
   padding: 10px 10px 10px 0;
 }
 
-.myprojects {
+.my-project {
   width: min(93%, 1200px);
   margin: auto;
 }
@@ -755,7 +747,7 @@ font-size: var(--font-size-p);
   margin-bottom: 5rem;
 }
 
-.card-img img {
+.project-card__img img {
   display: block;
   position: relative;
   width: 100%;
@@ -764,15 +756,15 @@ font-size: var(--font-size-p);
   transition: 400ms ease-in-out;
 }
 
-.card-img {
+.project-card__img {
   transition: 200ms ease-in-out;
 }
 
-.right-info {
+.project-card__info {
   padding: 1rem;
 }
 
-.details {
+.project-card__details {
   width: 100%;
   background: var(--primary-color);
   display: flex;
@@ -780,20 +772,18 @@ font-size: var(--font-size-p);
   margin-bottom: 15px;
 }
 
-.status {
+.project-card__status {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.status-pulse-incomplete {
+.project-card__status--incomplete {
   margin-left: -5px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   background: #ffa500;
-  /* IF COMPLETED
-  background: rgb(0, 128, 0); */
   animation: status-pulse-incomplete 2s linear infinite;
 }
 
@@ -815,16 +805,15 @@ font-size: var(--font-size-p);
   }
 }
 
-.status-pulse-complete {
+/* IF STATUS IS COMPLETE */
+/* .project-card__status--complete {
   margin-left: -5px;
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  /* IF INCOMPLETED  
-   background: #ffa500;*/
-  background: rgb(0, 128, 0);
+  background: #008000;
   animation: status-pulse-complete 2s linear infinite;
-}
+} */
 
 @keyframes status-pulse-complete {
   0% {
@@ -1196,7 +1185,7 @@ footer p {
     padding: 0 5px;
   }
 
-  .myimage {
+  .about__image {
     width: 280px;
     height: 280px;
     padding: 20px;
@@ -1242,7 +1231,7 @@ footer p {
     right: 0;
   }
 
-  .skills .slide p {
+  .skills .skill p {
     font-family: var(--font-special);
     font-weight: 900;
     font-size: clamp(.6rem, 3vw, .7rem);
@@ -1282,7 +1271,7 @@ footer p {
 }
 
 @media (max-width: 700px) {
-  .write-up-container {
+  .about__content-writeup {
     grid-template-columns: 1fr;
     gap: .5rem;
   }
@@ -1291,7 +1280,7 @@ footer p {
     order: 2;
   }
 
-  .myimage {
+  .about__image {
     order: 1;
   }
 
@@ -1316,22 +1305,22 @@ footer p {
     grid-column: span 2;
   }
 
-  .myprojects {
+  .my-project {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 992px) {
-  .write-up-container {
+  .about__content-writeup {
     grid-template-columns: 1fr ;
   }
   .home__socials {
     display: none;
   }
-  .myimage {
+  .about__image {
     display: none;
   }
-  .details {
+  .project-card__details {
     justify-content: center;
   }
 
