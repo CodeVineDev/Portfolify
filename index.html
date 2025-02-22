@@ -48,35 +48,37 @@
 
 <body>
     <header>
-        <nav class="myNavbar" data-aos="fade-down">
-            <div class="navCon">
-                <div class="navbar-brandd">
+        <!-- <navbar> -->
+        <nav class="navbar" data-aos="fade-down">
+            <div class="navbar__container">
+                <div class="navbar__logo">
                     <p>PORTFOLIFY.</p>
                 </div>
-                <div class="display-theme">
-                    <button id="toggleButton"><i id="iconElement"
+                <div class="theme-toggle">
+                    <button id="theme-toggle__btn"><i id="theme-toggle__icon"
                             class="material-symbols-outlined">light_mode</i></button>
                 </div>
-                <button class="sidebarBtn">
-                    <span class="span"></span>
+
+                <button class="navbar__burger-menu">
+                    <span class="burger-menu__span"></span>
                 </button>
-                <div class="sideBar">
-                    <div class="centerNav">
+                <div class="side-navbar">
+                    <div class="navbar-links__center">
                         <a href="#about">PROFILE</a>
                         <a href="#services">SKILLS</a>
                         <a href="#portfolio">PROJECTS</a>
-                        <a href="#contact" class="hidden-link">CONTACT ME</a>
+                        <a href="#contact" class="side-navbar__hidden">CONTACT ME</a>
                     </div>
-                    <div class="navBtns">
+                    <div class="navbar-links__right">
                         <a href="#">
-                            <button class="myCv">Resume</button>
+                            <button class="navbar__resume">Resume</button>
                         </a>
                         <a href="#contact">
-                            <button class="boldContact">CONTACT ME</button>
+                            <button class="navbar__contact">CONTACT ME</button>
                         </a>
                     </div>
-                    <div class="social-icons">
-                        <a href="#" class="social-icons">
+                    <div class="side-navbar__socials">
+                        <a href="#">
                             <button>
                                 <i class="fa fa-linkedin"></i>
                             </button>
@@ -90,11 +92,15 @@
                 </div>
             </div>
         </nav>
+        <!--</navbar> -->
     </header>
 
     <main>
-        <section id="home" class="home">
-            <div class="bottom-page-nav">
+        <section id="home">
+            <div id="preloader">
+                <div class="preloader__spinner"></div>
+            </div>
+            <div class="bottom-navbar">
                 <div><a href="#about"><i class="material-symbols-outlined">person_2</i>
                         <p>Profile</p>
                     </a></div>
@@ -104,47 +110,47 @@
                 <div><a href="#portfolio"><i class="material-symbols-outlined">toolbar</i>
                         <p>Projects</p>
                     </a></div>
-                <div class="home-bottom-nav"> <a href="#home"><i class="material-symbols-outlined">home</i>
+                <div class="bottom-navbar__home"> <a href="#home"><i class="material-symbols-outlined">home</i>
                         <p>Home</p>
                     </a></div>
             </div>
-            <div class="goBack-btn">
+            <div class="back-to">
                 <a href="#home"><i class="material-symbols-outlined">home</i></a>
                 <a href="#contact"><i class="material-symbols-outlined">phone</i></a>
             </div>
-            <div class="colorPicker-btn">
-                <button id="changeColorBtn"><img src="IMAGES/color-icon.png" alt="Change color icon"></button>
-                <input type="color" id="colorPicker" style="display:none;">
+            <div class="color-picker">
+                <button id="color-picker__btn"><img src="IMAGES/color-icon.png" alt="Change color icon"></button>
+                <input type="color" id="Picker" style="display:none;">
             </div>
-            <div class="homepage">
-                <div class="right-hero">
+            <!-- <home> -->
+            <div>
+                <div class="home__content">
                     <div class="space"></div>
                     <h1 data-aos="fade-up">Hey there, I'm JOHN DOE </h1>
-                    <p class="occupation" data-aos="fade-up">
+                    <p class="home__sub-text" data-aos="fade-up">
                         Write here a simple and straight forward description of what you do.
                         Keep it punchy
                     </p>
-                    <div class="socialBtns" data-aos="fade-up">
-                        <div>
-                            <a href="#portfolio"><button>Projects</button></a>
-                        </div>
-                    </div>
-                    <div class="floating-socials" data-aos="fade-right">
-                        <a data-aos="zoom-in" href="#"><i
-                                class="fa fa-linkedin-square"></i></a>
-                        <a data-aos="zoom-in" href="#"><i class="fa fa-youtube-square"></i></a>
-                        <a data-aos="zoom-in" href="#"><i class="fa fa-github-square"></i></a>
+                    <div class="call-to-action" data-aos="fade-up">
+                        <a href="#portfolio"><button>Projects</button></a>
                     </div>
                     <div class="scroll-down" data-aos="fade-up">
                         <p>Scroll down to know a little more about me</p>
                         <i class="material-symbols-outlined" id="arrow-down">expand_more</i>
                     </div>
+                    <div class="home__socials" data-aos="fade-right">
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-youtube-square"></i></a>
+                        <a data-aos="zoom-in" href="#"><i class="fa fa-github-square"></i></a>
+                    </div>
+
                 </div>
             </div>
+            <!-- </home> -->
         </section>
-
+        <!-- <about> -->
         <section id="about">
-            <div class="left-about">
+            <div class="about__content">
                 <h3 data-aos="fade-up">Meet the Developer</h3>
                 <div class="write-up-container" data-aos="fade-up">
                     <div class="write-up">
@@ -171,6 +177,7 @@
                 </div>
             </div>
         </section>
+        <!-- </about> -->
 
         <section id="services">
             <div class="mySkills">
@@ -200,138 +207,138 @@
                 </div>
             </div>
 
-        <section id="portfolio">
-            <div class="projects">
-                <div class="project-heading">
-                    <h3 data-aos="fade-up">Examine my latest project</h3>
-                    <!-- This is the section where you display your projects -->
-                </div>
-                <div class="myprojects">
-                    <div class="project-card" data-aos="fade-up">
-                        <div class="card-img">
-                            <img src="IMAGES/project-image.png" alt="project picture">
-                        </div>
-                        <div class="right-info">
-                            <h4>PROJECT 1</h4>
-                            <p>
-                                Write a brief description of your first projects.
-                            </p>
-                            <div class="details">
-                                <div class="status">
-                                    <p> Project status</p>
-                                    <!-- complete or incomplete -->
-                                    <div class="status-pulse-incomplete"></div>
-                                </div>
+            <section id="portfolio">
+                <div class="projects">
+                    <div class="project-heading">
+                        <h3 data-aos="fade-up">Examine my latest project</h3>
+                        <!-- This is the section where you display your projects -->
+                    </div>
+                    <div class="myprojects">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="card-img">
+                                <img src="IMAGES/project-image.png" alt="project picture">
                             </div>
-                            <button class="show-card" onclick="openDialog(1)">Case Study</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="myprojects">
-                    <div class="project-card" data-aos="fade-up">
-                        <div class="card-img">
-                            <img src="IMAGES/project-image.png" alt="project picture">
-                        </div>
-                        <div class="right-info">
-                            <h4>PROJECT 2</h4>
-                            <p>
-                                Write a brief description of your next projects
-                            </p>
-                            <div class="details">
-                                <div class="status">
-                                     <p> Project status</p>
-                                     <!-- complete or incomplete -->
-                                    <div class="status-pulse-incomplete"></div>
+                            <div class="right-info">
+                                <h4>PROJECT 1</h4>
+                                <p>
+                                    Write a brief description of your first projects.
+                                </p>
+                                <div class="details">
+                                    <div class="status">
+                                        <p> Project status</p>
+                                        <!-- complete or incomplete -->
+                                        <div class="status-pulse-incomplete"></div>
+                                    </div>
                                 </div>
+                                <button class="show-card" onclick="openDialog(1)">Case Study</button>
                             </div>
-                            <button class="show-card" onclick="openDialog(2)">Case Study</button>
+                        </div>
+                    </div>
+                    <div class="myprojects">
+                        <div class="project-card" data-aos="fade-up">
+                            <div class="card-img">
+                                <img src="IMAGES/project-image.png" alt="project picture">
+                            </div>
+                            <div class="right-info">
+                                <h4>PROJECT 2</h4>
+                                <p>
+                                    Write a brief description of your next projects
+                                </p>
+                                <div class="details">
+                                    <div class="status">
+                                        <p> Project status</p>
+                                        <!-- complete or incomplete -->
+                                        <div class="status-pulse-incomplete"></div>
+                                    </div>
+                                </div>
+                                <button class="show-card" onclick="openDialog(2)">Case Study</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <dialog class="project-preview" id="dialog1">
-                <div class="preview">
-                    <i class="fa fa-times-circle fa-times" onclick="closeDialog(1)"></i>
-                    <div class="about-project">
-                        <h2>PROJECT 1</h2>
-                        <p>This page contains case study of your first project
-                        </p>
-                        <div class="live-btns">
-                            <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                            <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
-                        </div>
-                    </div>
-                    <div class="content-project">
-                        <img src="IMAGES/project-image.png" alt="project picture">
-                        <h3>PROJECT OVERVIEW</h3>
-                        <div class="overview">
-                            <p>Write more about your project
+                <dialog class="project-preview" id="dialog1">
+                    <div class="preview">
+                        <i class="fa fa-times-circle fa-times" onclick="closeDialog(1)"></i>
+                        <div class="about-project">
+                            <h2>PROJECT 1</h2>
+                            <p>This page contains case study of your first project
                             </p>
-                            <h3>Key Features:</h3>
-                            <ul>
-                                <li>feature 1 of your project</li>
-                                <li>feature 2 of your project</li>
-                                <!-- Add as much features of your choice -->
-                            </ul>
+                            <div class="live-btns">
+                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            </div>
                         </div>
-                        <h3>TOOLS USED</h3>
-                        <div class="tools-used">
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                        </div>
-                        <h3>SEE LIVE</h3>
-                        <div class="live-btns">
-                            <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                            <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
-                        </div>
-                    </div>
-                </div>
-            </dialog>
-            <dialog class="project-preview" id="dialog2">
-                <div class="preview">
-                    <i class="fa fa-times-circle fa-times" onclick="closeDialog(2)"></i>
-                    <div class="about-project">
-                        <h2>PROJECT 1</h2>
-                        <p>This page contains case study of your first project
-                        </p>
-                        <div class="live-btns">
-                            <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                            <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                        <div class="content-project">
+                            <img src="IMAGES/project-image.png" alt="project picture">
+                            <h3>PROJECT OVERVIEW</h3>
+                            <div class="overview">
+                                <p>Write more about your project
+                                </p>
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li>feature 1 of your project</li>
+                                    <li>feature 2 of your project</li>
+                                    <!-- Add as much features of your choice -->
+                                </ul>
+                            </div>
+                            <h3>TOOLS USED</h3>
+                            <div class="tools-used">
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                            </div>
+                            <h3>SEE LIVE</h3>
+                            <div class="live-btns">
+                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="content-project">
-                        <img src="IMAGES/project-image.png" alt="project picture">
-                        <h3>PROJECT OVERVIEW</h3>
-                        <div class="overview">
-                            <p>Write more about your project
+                </dialog>
+                <dialog class="project-preview" id="dialog2">
+                    <div class="preview">
+                        <i class="fa fa-times-circle fa-times" onclick="closeDialog(2)"></i>
+                        <div class="about-project">
+                            <h2>PROJECT 1</h2>
+                            <p>This page contains case study of your first project
                             </p>
-                            <h3>Key Features:</h3>
-                            <ul>
-                                <li>feature 1 of your project</li>
-                                <li>feature 2 of your project</li>
-                                <!-- Add as much features of your choice -->
-                            </ul>
+                            <div class="live-btns">
+                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            </div>
                         </div>
-                        <h3>TOOLS USED</h3>
-                        <div class="tools-used">
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                            <span>skill</span>
-                        </div>
-                        <h3>SEE LIVE</h3>
-                        <div class="live-btns">
-                            <a href="#"><button class="golive-btn">LIVE LINK</button></a>
-                            <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                        <div class="content-project">
+                            <img src="IMAGES/project-image.png" alt="project picture">
+                            <h3>PROJECT OVERVIEW</h3>
+                            <div class="overview">
+                                <p>Write more about your project
+                                </p>
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li>feature 1 of your project</li>
+                                    <li>feature 2 of your project</li>
+                                    <!-- Add as much features of your choice -->
+                                </ul>
+                            </div>
+                            <h3>TOOLS USED</h3>
+                            <div class="tools-used">
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                                <span>skill</span>
+                            </div>
+                            <h3>SEE LIVE</h3>
+                            <div class="live-btns">
+                                <a href="#"><button class="golive-btn">LIVE LINK</button></a>
+                                <a href="#"><button class="golive-btn">GITHUB LINK</button></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </dialog>
-        </section>
+                </dialog>
+            </section>
 
         </section>
 
@@ -340,7 +347,7 @@
                 <div>
                     <h3 data-aos="fade-up">Send me an Email</h3>
                     <p data-aos="fade-up">
-                       Use this section as a call to action to get feedbacks
+                        Use this section as a call to action to get feedbacks
                     </p>
                 </div>
                 <div class="reach-out">
