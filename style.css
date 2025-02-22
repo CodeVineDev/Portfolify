@@ -559,11 +559,7 @@ font-size: var(--font-size-p);
 .about__content {
   background: var(--primary-color);
   box-shadow: 10px 6px 20px var(--faint-blue);
-  padding-block: 5%;
-}
-
-.about__content :is(.h3-hidden, .p-hidden, .project-heading) {
-  overflow: hidden;
+  padding: 7rem 0 10rem 0;
 }
 
 .about__content h3 {
@@ -654,7 +650,7 @@ font-size: var(--font-size-p);
 
 /* SERVICES STYLING */
 .skills-display {
-  padding: 100px 0;
+  padding: 7rem 0 10rem 0;
   width: min(95%, 1200px);
   margin: auto;
 }
@@ -704,11 +700,11 @@ font-size: var(--font-size-p);
 .projects {
   background: var(--primary-color);
   box-shadow: 10px 6px 20px var(--faint-blue);
-  padding: 100px 0;
+  padding: 7rem 0 10rem 0;
 }
 
 .projects h3:not(.project-name) {
-  margin: 20px 0 50px 0;
+  margin: 0 0 50px 0;
   text-align: center;
   color: var(--blue-text);
   font-family: var(--font-head);
@@ -1010,7 +1006,7 @@ font-size: var(--font-size-p);
 /* CONTACT STYLING */
 
 .contact__content {
-  padding: 100px 10px;
+  padding: 7rem 1rem 10rem 1rem;
 }
 
 .contact__content h3 {
