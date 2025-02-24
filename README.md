@@ -1,84 +1,91 @@
 
 # Portfolify 🔥
-
 # A Super Fast Portfolio Template Project 🚀
-
-Welcome to **Portfolify**, your go-to solution for creating a **stunning and professional portfolio website**. Portfolify is designed to **simplify** the process of building and customizing your online portfolio, allowing you to showcase **your skills, projects, and experiences** with ease. This template is **open-source**, meaning you can contribute to its development and make it even better for everyone to use.
-
-
-
-## Project Video Demo 🔗
-
-[Watch the Video](https://github.com/user-attachments/assets/e8a767db-a224-41f9-b416-5e48bdb547c1)
-
-**Explore Portfolify in different color themes of your choice 🤗**
-
-## Support 
-![IMAGE](IMAGES/support-image.jpg)
-
-I greatly appreciate the support of amazing individuals like you. I invite you to connect with me on [**LinkedIn**](https://www.linkedin.com/in/cdc-codevine) and encourage you to check out my profile. I look forward to engaging with you there 😌.
-
-
-## Tech Stack 🔧
-
-**Client:** 
+# [**Demo Link 🔗**](https://porfolify-lime.vercel.app/)
+<br><br>
+___
+<br><br>
+## Technologies used 🔧
 - **HTML** 🚀
 - **CSS** 🚀
-- **Javascript** 🚀
- **ONLY** 
-
-
-
-
-## Purpose 💡
-
-Portfolify aims to provide individuals with a user-friendly template for crafting impressive portfolio websites without the need for extensive coding knowledge. Whether you're a developer, designer, marketer, or any professional seeking to showcase your work, Portfolify is here to help you create a visually appealing and informative online presence.
+- **Javascript** 🚀 
+<br><br>
 
 ## Features 🔗
 
-- **Fully Responsive Design 🤙**
-- **Free to Use (Open source) 😉**
-- **Customizable Sections 👌**
-- **No Additional Frameworks 🤘**
-- **No Additional Libaries ✌**
-- **Contact Form Integration 💪**
-- **Easy Deployment 👌**
-
+### - **Easy to set up 💯**
+### - **Fully Responsive Design 🔥**
+### - **Free to Use (Open source) 🥳**
+### - **Customizable Sections 👌**
+### - **No Frameworks, No libraries 🤘**
+### - **Easy Deployment ❤**
+<br><br>
+## **Test the template with different colors, once you have chosen a color of your choice, remove the color edit feature from the `index.html`, `style.css`, and `script.js` files**
+<br><br>
 ## How to Use 📑
+### Step 1
+From your command line, Clone the Portfolify repository
+```bash
+# Clone this repository
+$ git clone https://github.com/CodeVineDev/Portfolify.git
 
-- Get Started: Fork or clone the Portfolify repository to your local machine.
+# Go into the repository
+$ cd Portfolify
+
+# Remove the current origin repository
+$ git remote remove origin
+```
+
+### Step 2
+- Open `index.html` in a browser (No setup required).
+### Step 3
 - Customize Content: Modify the HTML, CSS, and JavaScript files to personalize your portfolio with your information and preferences.
-- Add Your Projects: Populate the Projects section with information about your projects, including titles, descriptions, images, and relevant links.
-- Update Skills: Showcase your skills and proficiency levels in various technologies or tools in the Skills section.
 - Personalize: Customize other sections such as About Me and Experience to reflect your unique background and story.
+- Add Your Projects: Populate the Projects section with project information, including titles, descriptions, images, and relevant links.
+- Update Skills: Showcase your skills and proficiency levels in various technologies or tools in the Skills section.
 - Test Your Website: Ensure your portfolio looks and functions as expected across different devices and web browsers.
-- Deploy Your Portfolio: Deploy your customized portfolio website to your preferred hosting platform for the world to see.
+<br><br>
+___
+<br><br>
+## Deployment 📦
+Once you have done with your setup. You need to put your website online!
+I highly recommend using [Vercel]( https://vercel.com) to achieve this in the EASIEST WAY
+### How to get started with vercel
+- Go to vercel.com
+- Click Sign Up (use GitHub for easy setup)
+- Log in to your account
+- ✅ If Your Project is on GitHub
+- Click "New Project"
+- Click "Import" next to your repository
+- Click "Deploy" (Vercel auto-detects HTML, JavaScript, or frameworks)
 
-## Contributing 🛒
-
-Contributions to Portfolify are highly encouraged and appreciated! Whether you're fixing bugs, adding new features, or improving the design, your contributions can help enhance this template for everyone. To contribute, fork the repository, make your changes, and submit a pull request. Together, we can make Portfolify even more valuable for users worldwide.
-
-
-
-## Feedback 🔎
-
-If you encounter any issues, have suggestions for improvements, or need assistance with customizing Portfolify, please don't hesitate to  reach out to us for support codevine2023@gmail.com. Your feedback is crucial in making Portfolify better and providing better support to users.
-
+After deployment, Vercel gives you a URL like:
+➡️ https://your-project.vercel.app
+<br><br>
+___
+<br><br>
 ## Author 👨‍💻
 
 - **Chukwudolue Divine** [**LinkedIn**](https://www.linkedin.com/in/cdc-codevine), [**Github**](https://github.com/CodeVineDev), [**Portfolio**](https://codevine.vercel.app/)
+<br><br>
 
 **Note**
 
 I'm currently looking for good Job Opportunities Remote ( Worldwide ). So, if you have a good opportunity that matches my skills experience then you can contact me on my Linkedin or my email id codevine2023@gmail.com 🙌
-
+<br><br>
+___
+<br><br>
 ## Give a Star ⭐
 
 If you like this project then give it a Github star by pressing the Star button ⭐
-
+<br><br>
+___
+<br><br>
 ## Special Thanks ❤
 
 Special thanks to - [**Ram Maheshwari**](https://www.rammaheshwari.com) for inspiring the creation of this project for the developer community. Ram Masheshwari is the creator of Dopefolio, another excellent portfolio website template for developers. Check it out and show your support ❤️ 
-
- ## License 📜
+<br><br>
+___
+<br><br>
+## License 📜
 This project is licensed under the GPL-3.0 License - see the [LICENSE](/LICENSE) file for details
