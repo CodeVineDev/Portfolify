@@ -29,7 +29,7 @@
 /* DARK MODE */
 .dark-mode {
   --font-head: "Montserrat", serif;
-  --font-body:"Jost", sans-serif;
+  --font-body: "Jost", sans-serif;
   --font-special: "Poppins", sans-serif;
   --font-size-h1: clamp(2rem, 5vw + 0.5rem, 30rem);
   --font-size-h3: clamp(.7rem, 3vw + .3rem, 1.2rem);
@@ -318,7 +318,7 @@ body {
 }
 
 .side-navbar__socials button:hover i {
- color: var(--blue-text);
+  color: var(--blue-text);
 }
 
 /*END OF NAVBAR STYLING */
@@ -401,6 +401,7 @@ body {
 .call-to-action a button i {
   font-size: 16px;
 }
+
 .home__socials {
   position: absolute;
   left: 0;
@@ -449,7 +450,7 @@ body {
   font-family: var(--font-body);
   color: var(--tab-color);
   font-weight: 400;
-font-size: var(--font-size-p);
+  font-size: var(--font-size-p);
   margin-top: 30px;
 }
 
@@ -542,7 +543,7 @@ font-size: var(--font-size-p);
   position: absolute;
   left: 10px;
   top: 4px;
-  width: 30px; 
+  width: 30px;
 }
 
 #colorPicker {
@@ -611,7 +612,7 @@ font-size: var(--font-size-p);
   margin-bottom: 30px;
 }
 
-.about__content p span:not( .about__image) {
+.about__content p span:not(.about__image) {
   display: block;
   margin-bottom: 10px;
 }
@@ -680,7 +681,7 @@ font-size: var(--font-size-p);
   box-shadow: 6px 6px 10px var(--faint-blue);
 }
 
-.skills .skill-icon{
+.skills .skill-icon {
   font-size: 4rem;
   color: var(--blue-text);
 }
@@ -1079,8 +1080,6 @@ fieldset {
   color: var(--tab-color);
 }
 
-
-
 .contact__center-input textarea::placeholder {
   color: var(--tab-color);
 }
@@ -1136,26 +1135,31 @@ footer {
   text-align: center;
   background-color: var(--primary-color);
 }
-.footer{
+
+.footer {
   width: min(95%, 1200px);
   margin: auto;
 }
-.footer__container{
+
+.footer__container {
   border-bottom: 1px solid var(--tab-color);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   padding: 2rem 0;
 }
-.footer__content{
-text-align: left;
+
+.footer__content {
+  text-align: left;
 }
-.footer__content h3{
+
+.footer__content h3 {
   font-size: var(--font-size-h3);
   color: var(--tab-color);
   font-family: var(--font-head);
   margin-bottom: 30px;
 }
+
 .footer__content p {
   font-size: var(--font-size-p);
   font-family: var(--font-body);
@@ -1164,24 +1168,29 @@ text-align: left;
   margin-bottom: 1rem;
 
 }
-.footer__socials{
+
+.footer__socials {
   font-size: 2rem;
   text-align: right;
 }
-.footer__socials a{
+
+.footer__socials a {
   color: var(--blue-text);
   margin-left: 1rem;
 }
-.footer__socials h4{
+
+.footer__socials h4 {
   color: var(--tab-color);
   margin-bottom: 1rem;
   font-family: var(--font-head);
   font-size: var(--font-size-h3);
 }
-.footer__copyright{
+
+.footer__copyright {
   padding: 2rem 1rem;
 }
-.footer__copyright p{
+
+.footer__copyright p {
   font-size: var(--font-size-p);
   color: var(--tab-color);
   font-family: var(--font-body);
@@ -1192,11 +1201,9 @@ text-align: left;
   font-size: var(--font-size-special);
 }
 
-
 /* END OF FOOTER STYLING */
 
 /* MEDIA QUERY */
-
 @media (max-width: 370px) {
   .about-social-buttons {
     padding: 0 5px;
@@ -1243,7 +1250,8 @@ text-align: left;
     width: 90%;
     margin-left: 1rem;
   }
-   .color-picker {
+
+  .color-picker {
     top: 100px;
     right: 0;
   }
@@ -1288,9 +1296,10 @@ text-align: left;
 }
 
 @media (max-width: 700px) {
-  footer{
+  footer {
     padding: 5rem 1rem 0 1rem;
   }
+
   .about__content-writeup {
     grid-template-columns: 1fr;
     gap: .5rem;
@@ -1331,25 +1340,31 @@ text-align: left;
 }
 
 @media (max-width: 992px) {
-  .footer__container{
+  .footer__container {
     grid-template-columns: 1fr;
-      }
-      .footer__socials{
-        text-align: left;
-      }
-      .footer__socials a{
-        margin-right: 1rem;
-        margin-left: 0;
-      }
-  .about__content-writeup {
-    grid-template-columns: 1fr ;
   }
+
+  .footer__socials {
+    text-align: left;
+  }
+
+  .footer__socials a {
+    margin-right: 1rem;
+    margin-left: 0;
+  }
+
+  .about__content-writeup {
+    grid-template-columns: 1fr;
+  }
+
   .home__socials {
     display: none;
   }
+
   .about__image {
     display: none;
   }
+
   .project-card__details {
     justify-content: center;
   }
@@ -1642,6 +1657,7 @@ text-align: left;
 .thank-you button:hover {
   box-shadow: 5px 5px 5px var(--faint-blue);
 }
+
 .confetti {
   position: absolute;
   z-index: 10;
