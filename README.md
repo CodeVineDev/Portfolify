@@ -42,6 +42,8 @@ $ git remote remove origin
 - Customize Content: Modify the HTML, CSS, and JavaScript files to personalize your portfolio with your information and preferences.
 - Personalize: Customize other sections such as About Me and Experience to reflect your unique background and story.
 - Add Your Projects: Populate the Projects section with project information, including titles, descriptions, images, and relevant links.
+### Note
+I'll recommend using [shots.so](https://shots.so/) to get your project image mockup, its fully customisable and easy to use.
 - Update Skills: Showcase your skills and proficiency levels in various technologies or tools in the Skills section.
 - Test Your Website: Ensure your portfolio looks and functions as expected across different devices and web browsers.
 <br><br>
